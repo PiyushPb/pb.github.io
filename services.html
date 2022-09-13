@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/services.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script type="text/javascript" src="js/pace.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- ---------------------------------------nav bar menu---------------------------------------- -->
+    <nav>
+        <div class="nav_container">
+            <div class="button menu_btn" onclick="toggle()">menu</div>
+        </div>
+        <div class="menu">
+            <div class="button" onclick="togglec()">close</div>
+                <ul class="ul">
+                    <a href="home.html" class="menu-item li">
+                        <div>
+                            <span class="menu-item-text">Home</span>
+                        </div>
+                    </a>
+
+                    <a href="work.html" class="menu-item li">
+                        <div>
+                            <span class="menu-item-text">Work</span>
+                        </div>
+                    </a>
+
+                    <a href="about.html" class="menu-item li">
+                        <div>
+                            <span class="menu-item-text">About</span>
+                        </div>
+                    </a>
+
+                    <a href="services.html" class="menu-item li">
+                        <div>
+                            <span class="menu-item-text">Services</span>
+                        </div>
+                    </a>
+
+                    <a href="contact.html" class="menu-item li">
+                        <div>
+                            <span class="menu-item-text">Contact</span>
+                        </div>
+                    </a>
+                </ul>
+            <div class="social">
+                <ul>
+                    <li class="social-li"><a href="https://www.facebook.com/pinkandbluedevelopers" target="blank_">facebook</a></li>
+                    <li class="social-li"><a href="https://www.instagram.com/pinkandbluedevelopers/" target="blank_">instagram</a></li>
+                    <li class="social-li"><a href="https://twitter.com/pinkandbluedevs" target="blank_">twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="pbnav">
+            <img class="pblogo" src="assets/pb.png">
+        </div>
+    </nav>
+
+<!-- ---------------------------------------nav bar menu ends----------------------------------- -->
+    <div class="home_container">
+        <div class="pink_container">
+            <div class="pink_container_overlay"></div>
+            <div class="pink_text" id="pink_text">
+                <p>SERVICES</p>
+            </div>
+        </div>
+        <div class="circle-container">
+            <svg height="1030" width="1030" class="bg-circle">
+                <circle cx="615" cy="515" r="515" stroke="#dedede" stroke-width="1" stroke-dasharray="3236 3236" fill="none" stroke-dashoffset="0"></circle>
+            </svg>
+        </div>
+        <div class="home_content_container">
+            <h1>We are pink and blue developers</h1>
+            <h2>Driving brands forward online.</h2>
+            <p>We are a creative team of designers, developers, strategists, and producers building elevated websites in the heart of India.</p>
+        </div>
+    </div>
+
+
+
+
+    <div class="our_work_section">
+        <div class="ourwork_heading_container">
+            <h3>WEBSITE DESIGN & DEVELOPMENT</h3>
+            <p>Helping businesses leverage the internet with award winning websites since 2014</p>
+        </div>
+    </div>
+
+
+
+    <div class="sericve-list-container">
+        <div class="sericve-list-content-container">
+            <h2 class="service-list-title">Elevating your brand at every touchpoint.</h2>
+            <div class="services-container">
+                <ul class="services-ul">
+                    <li class="service-li">
+                        <span class="icon-plus">-</span>
+                        <h3>Website Design</h3>
+                    </li>
+
+
+                    <li class="service-li">
+                        <span class="icon-plus">-</span>
+                        <h3>Responsive Web Design</h3>
+                    </li>
+
+
+                    <li class="service-li">
+                        <span class="icon-plus">-</span>
+                        <h3>UI/UX Design</h3>
+                    </li>
+
+
+                    <li class="service-li">
+                        <span class="icon-plus">-</span>
+                        <h3>Content Management</h3>
+                    </li>
+
+
+                    <li class="service-li">
+                        <span class="icon-plus">-</span>
+                        <h3>Insights & Analytics</h3>
+                    </li>
+
+
+                    <li class="service-li">
+                        <span class="icon-plus">-</span>
+                        <h3>Motion Graphics</h3>
+                    </li>
+
+
+                    <li class="service-li">
+                        <span class="icon-plus">-</span>
+                        <h3>UI/UX Design</h3>
+                    </li>
+
+
+                    <li class="service-li">
+                        <span class="icon-plus">-</span>
+                        <h3>Content Management</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="about desktop_section">
+        <div class="about-pages">
+            <div>
+                <h2  data-aos="fade-up">Goal-led designs</h2>
+                <p data-aos="fade-up">We deliver solutions that are at the intersection of business goals & user goals but are always led by great design. We strive to harmonise simple with complex, aesthetics with effective and clarity with surprise.</p>
+            </div>
+            <div>
+                <h2 data-aos="fade-up">Creative collaboration</h2>
+                <p data-aos="fade-up">We are not a ‘Choose from 3 designs’ kind of a studio. We collaborate with clients who allow us the creative freedom to question assumptions and explore new directions. We strive to make each project unique and not stick to one success template.</p>
+            </div>
+            <div>
+                <h2 data-aos="fade-up">Open lines</h2>
+                <p data-aos="fade-up">We deem transparent and open communication as the most critical elements for a project’s success. All our project milestones are driven by documented feedback and closely monitored workflows.</p>
+            </div>
+            <div>
+                <h2 data-aos="fade-up">Creative collaboration</h2>
+                <p data-aos="fade-up">We are not a ‘Choose from 3 designs’ kind of a studio. We collaborate with clients who allow us the creative freedom to question assumptions and explore new directions. We strive to make each project unique and not stick to one success template.</p>
+            </div>
+            <div>
+                <h2 data-aos="fade-up">Connected world</h2>
+                <p data-aos="fade-up">We believe in a world with no boundaries and have global experience of working with brands across the globe - New York, Sydney, Denmark, Birmingham, Dubai, Norway, Mumbai and beyond.</p>
+            </div>
+        </div>
+        <div class="about-title">
+            <h2 data-aos="fade-up">Strong values we stand by</h2>
+        </div>
+    </div>
+
+    <div class="about_mobile_section">
+        <div class="about-title_mobile">
+            <h2 data-aos="fade-up">Strong values we stand by</h2>
+        </div>
+        <div class="about-pages_mobile">
+            <div>
+                <h2 data-aos="fade-up">Goal-led designs</h2>
+                <p data-aos="fade-up">We deliver solutions that are at the intersection of business goals & user goals but are always led by great design. We strive to harmonise simple with complex, aesthetics with effective and clarity with surprise.</p>
+            </div>
+            <div>
+                <h2 data-aos="fade-up">Creative collaboration</h2>
+                <p data-aos="fade-up">We are not a ‘Choose from 3 designs’ kind of a studio. We collaborate with clients who allow us the creative freedom to question assumptions and explore new directions. We strive to make each project unique and not stick to one success template.</p>
+            </div>
+            <div>
+                <h2 data-aos="fade-up">Open lines</h2>
+                <p data-aos="fade-up">We deem transparent and open communication as the most critical elements for a project’s success. All our project milestones are driven by documented feedback and closely monitored workflows.</p>
+            </div>
+            <div>
+                <h2 data-aos="fade-up">Creative collaboration</h2>
+                <p data-aos="fade-up">We are not a ‘Choose from 3 designs’ kind of a studio. We collaborate with clients who allow us the creative freedom to question assumptions and explore new directions. We strive to make each project unique and not stick to one success template.</p>
+            </div>
+            <div>
+                <h2 data-aos="fade-up">Connected world</h2>
+                <p data-aos="fade-up">We believe in a world with no boundaries and have global experience of working with brands across the globe - New York, Sydney, Denmark, Birmingham, Dubai, Norway, Mumbai and beyond.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="clients_container">
+        <center><h3>Some friends we’ve<br>made in the process.</h3></center>
+        <div class="clients_wrapper">
+            <ul>
+                <li>
+                    <img src="https://images.ctfassets.net/eqb1x10m46e1/4iW2yRrMtJ9B0HCEiJ5Jek/4704ae75e79e0b29cf896e33d1271ea3/Baunfire_Client_Google_v1.png?w=170&h=64&q=90&fm=webp">
+                </li>
+
+
+                <li>
+                    <img src="https://images.ctfassets.net/eqb1x10m46e1/4iW2yRrMtJ9B0HCEiJ5Jek/4704ae75e79e0b29cf896e33d1271ea3/Baunfire_Client_Google_v1.png?w=170&h=64&q=90&fm=webp">
+                </li>
+
+
+
+                <li>
+                    <img src="https://images.ctfassets.net/eqb1x10m46e1/4iW2yRrMtJ9B0HCEiJ5Jek/4704ae75e79e0b29cf896e33d1271ea3/Baunfire_Client_Google_v1.png?w=170&h=64&q=90&fm=webp">
+                </li>
+
+
+
+                <li>
+                    <img src="https://images.ctfassets.net/eqb1x10m46e1/4iW2yRrMtJ9B0HCEiJ5Jek/4704ae75e79e0b29cf896e33d1271ea3/Baunfire_Client_Google_v1.png?w=170&h=64&q=90&fm=webp">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    <div class="footer">
+        <h2 class="footer_heading"  data-aos="fade-up">LET'S WORK<br>TOGETHER</h2>
+        <a href="contact.html" class="startaproject_button">START A PROJECT</a>
+        <div class="footer_content">
+            <div class="footer_content_conatiner">
+                <p data-aos="fade-up">EMAIL US AT</p>
+                <p data-aos="fade-up">pinkandbluedevelopers@gmail.com</p>
+            </div>
+
+            <div class="footer_content_conatiner">
+                <p data-aos="fade-up">CALL US ON</p>
+                <p data-aos="fade-up">+91 7738444783</p>
+            </div>
+
+            <div class="footer_content_conatiner">
+                <p data-aos="fade-up">GET SOCIAL</p>
+                <p data-aos="fade-up">+91 7738444783</p>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p>&copy; Pink and blue developers</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div id="preloader">
+        <div class="preloader_text">LOADING</div>
+    </div>
+
+    <script src="js/navbar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js" integrity="sha512-8Wy4KH0O+AuzjMm1w5QfZ5j5/y8Q/kcUktK9mPUVaUoBvh3QPUZB822W/vy7ULqri3yR8daH3F58+Y8Z08qzeg==" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/services.js"></script>
+</body>
+</html>
