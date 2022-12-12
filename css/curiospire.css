@@ -272,11 +272,11 @@ body{
   min-height: 100vh;
 }
 
-.image_container2 > div{
+/*.image_container2 > div{
   background: url('../assets/curiospire/curwebgif.gif');
   max-width: 1024px; margin: 0px auto;
   background-size: cover;
-}
+}*/
 
 
 

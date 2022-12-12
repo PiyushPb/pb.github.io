@@ -14,6 +14,60 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
+<!-- ---------------------------------------nav bar menu---------------------------------------- -->
+    <nav>
+        <div class="nav_container">
+            <div class="button menu_btn" onclick="toggle()">menu</div>
+        </div>
+        <div class="menu">
+            <div class="button" onclick="togglec()">close</div>
+                <ul class="ul">
+                    <a href="home.html" class="menu-item li">
+                        <div>
+                            <span class="menu-item-text">Home</span>
+                        </div>
+                    </a>
+
+                    <a href="work.html" class="menu-item li">
+                        <div>
+                            <span class="menu-item-text">Work</span>
+                        </div>
+                    </a>
+
+                    <a href="about.html" class="menu-item li">
+                        <div>
+                            <span class="menu-item-text">About</span>
+                        </div>
+                    </a>
+
+                    <a href="services.html" class="menu-item li">
+                        <div>
+                            <span class="menu-item-text">Services</span>
+                        </div>
+                    </a>
+
+                    <a href="contact.html" class="menu-item li">
+                        <div>
+                            <span class="menu-item-text">Contact</span>
+                        </div>
+                    </a>
+                </ul>
+            <div class="social">
+                <ul>
+                    <li class="social-li"><a href="https://www.facebook.com/pinkandbluedevelopers" target="blank_">facebook</a></li>
+                    <li class="social-li"><a href="https://www.instagram.com/pinkandbluedevelopers/" target="blank_">instagram</a></li>
+                    <li class="social-li"><a href="https://twitter.com/pinkandbluedevs" target="blank_">twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="pbnav">
+            <img class="pblogo" src="assets/pb.png">
+        </div>
+    </nav>
+
+<!-- ---------------------------------------nav bar menu ends----------------------------------- -->
+
+	
 	<div class="home_container">
 		<div class="head_block desktop">
 			<div class="head-info">
@@ -73,7 +127,11 @@
 
 	<div class="image_container1" style="padding-top: 62.5%;"></div>
 	<div class="image_container2">
-		<div style="padding-top: 56.25%;"></div>
+		<div>
+			<video muted loop autoplay height="100%" width="100%"> 
+				<source src="assets/curiospire/curwebgif.mp4">
+			</video> 
+		</div>
 	</div>
 
 
@@ -116,8 +174,9 @@
 	</div>
 
 
-	<div class="brand_details_content_container container2">
+	<div class="brand_details_content_container container2 colorPallet_heading">
 		<div>
+			<div class="overlay___"></div>
 			<h2>Humanizing enterprise AI with an inviting color palette</h2>
 			<p>A new, inviting color palette was developed to support the contemporary visual language and approachable tone of voice for the reimagined Instabase brand.</p>
 		</div>
@@ -128,8 +187,9 @@
 	</div>
 
 
-	<div class="brand_details_content_container container2">
+	<div class="brand_details_content_container container2 font_heading">
 		<div>
+			<div class="overlay____"></div>
 			<h2>Simple and elevated typography</h2>
 			<p>The typography treatment across the new Instabase corporate website reflects the innovative technology company’s identity — intelligent, helpful, and friendly.</p>
 		</div>
@@ -139,10 +199,36 @@
 		<div style="padding-top: 56.25%;"></div>
 	</div>
 
+    <div class="footer">
+        <h2 class="footer_heading"  data-aos="fade-up">LET'S WORK<br>TOGETHER</h2>
+        <a href="contact.html" class="startaproject_button">START A PROJECT</a>
+        <div class="footer_content">
+            <div class="footer_content_conatiner">
+                <p data-aos="fade-up">EMAIL US AT</p>
+                <p data-aos="fade-up">pinkandbluedevelopers@gmail.com</p>
+            </div>
+
+            <div class="footer_content_conatiner">
+                <p data-aos="fade-up">CALL US ON</p>
+                <p data-aos="fade-up">+91 7738444783</p>
+            </div>
+
+            <div class="footer_content_conatiner">
+                <p data-aos="fade-up">GET SOCIAL</p>
+                <p data-aos="fade-up">+91 7738444783</p>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p>&copy; Pink and blue developers</p>
+            <p>Privacy Policy | Term and Services</p>
+        </div>
+    </div>
 
     <div id="preloader">
         <div class="preloader_text">LOADING</div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/navbar.js"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js" integrity="sha512-8Wy4KH0O+AuzjMm1w5QfZ5j5/y8Q/kcUktK9mPUVaUoBvh3QPUZB822W/vy7ULqri3yR8daH3F58+Y8Z08qzeg==" crossorigin="anonymous"></script>
 	<script src="js/portfolio.js"></script>
